@@ -31,6 +31,8 @@ Each colum
 
 For the other mean and standard deviation the mean/average value of all observations within a subject/activity combination is displayed. The X-Y-Z values for mean() and std() are displayed as separate columns. The angle Mean values are not included.
 
+All other variables denote the mean of all the observable data for mean and standard deviation with NA value ignored in the calculations.
+
 The data from accelerometer and gyroscope 3-axial raw signals is denoted as tAcc and tGyro with the respective X-Y-Z values. The t-prefix is used for time (captured at 50Hz) and the the f-prefix is used to indicate the frequency (using a Fast Fourier Transform). The Gravity signal is derived withing a Butterworth filter (corner frequency of .3Hz). The angular velocity is derived in time to obtain a Jerk signal.
 
 ** ALL CREDIT FOR THE MEANING OF THE VARIABLES COMES FROM THE ORIGINAL AUTHORS (see features_info.txt).
@@ -114,3 +116,8 @@ The data from accelerometer and gyroscope 3-axial raw signals is denoted as tAcc
 79.	fBodyBodyGyroJerkMag-mean()
 80.	fBodyBodyGyroJerkMag-std()
 81.	fBodyBodyGyroJerkMag-meanFreq()
+
+All values are mean observation values for mean() and std().
+
+** ALL CREDIT FOR THE MEANING OF THE VARIABLES COMES FROM THE ORIGINAL AUTHORS (see features_info.txt).
+
