@@ -33,7 +33,7 @@ For the other mean and standard deviation the mean/average value of all observat
 
 All other variables denote the mean of all the observable data for mean and standard deviation with NA value ignored in the calculations.
 
-The data from accelerometer and gyroscope 3-axial raw signals is denoted as tAcc and tGyro with the respective X-Y-Z values. The t-prefix is used for time (captured at 50Hz) and the the f-prefix is used to indicate the frequency (using a Fast Fourier Transform). The Gravity signal is derived withing a Butterworth filter (corner frequency of .3Hz). The angular velocity is derived in time to obtain a Jerk signal.
+The data from accelerometer and gyroscope 3-axial raw signals is denoted as tAcc and tGyro with the respective X-Y-Z values. The t-prefix is used for time (captured at 50Hz) and the the f-prefix is used to indicate the frequency (using a Fast Fourier Transform). The Gravity signal is derived withing a Butterworth filter (corner frequency of .3Hz). The angular velocity is derived in time to obtain a Jerk signal. The following values are for the 3rd to the 81st column.
 
 ** ALL CREDIT FOR THE MEANING OF THE VARIABLES COMES FROM THE ORIGINAL AUTHORS (see features_info.txt).
 
